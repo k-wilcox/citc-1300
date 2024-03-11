@@ -1,2 +1,2 @@
-# citc-1300
-Intro to web dev class
+# Project Page
+Intro to web dev class projects
