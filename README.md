@@ -2,5 +2,5 @@
 Intro to web dev class projects
 
 <ul>
-    <li href="intro_to_html_lab1/index.html" target="_blank">Welcome to Chattanooga | Lab1</li>
+    <li><a href="intro_to_html_lab1/index.html" target="_blank">Welcome to Chattanooga | Lab1</a></li>
 <ul>
