@@ -18,6 +18,15 @@ ul {
     text-align: center;
 }
 
+.half_size {
+    width: 49%;
+}
+.quarter_size {
+    width: 24%;
+}
+.third_size {
+    width: 32%
+}
 .header_text {
     text-align: center;
 }
