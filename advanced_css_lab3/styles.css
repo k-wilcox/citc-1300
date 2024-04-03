@@ -1,0 +1,66 @@
+body {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+
+    background-image: url("img/henry.jpg");
+    background-size: 40px;
+    background-repeat: repeat;
+}
+
+
+#nav_logo {
+    margin: auto;
+    float: left;
+    width: 25%
+}
+hr {
+    color: #4F2E69;
+}
+nav {
+    margin: auto;
+    float: right;
+}
+nav ul {
+    text-align: right;
+    list-style-type: none;
+}
+nav li {
+    padding: 5px;
+}
+nav li a {
+    color: #8650B3;
+}
+nav li a:hover {
+    color: #4F2E69;
+}
+header {
+    margin-top: 115px;
+}
+#content {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #090309;
+    padding: 15px;
+}
+.center_images {
+    display: block;
+    margin: auto;
+    width: 75%;
+}
+
+#lower {
+    display: flex;
+}
+.col {
+    width: 33%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #100914;
+}
+.col h3 {
+    text-align: center;
+}
