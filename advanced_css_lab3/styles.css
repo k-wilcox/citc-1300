@@ -50,7 +50,10 @@ header {
     width: 75%;
 }
 
-#lower {
+#lower, #lower_2, #lower_3, #dio_albums {
+    display: flex;
+}
+#honorable_mentions {
     display: flex;
 }
 .col {
@@ -62,5 +65,8 @@ header {
     background-color: #100914;
 }
 .col h3 {
+    text-align: center;
+}
+.col h5 {
     text-align: center;
 }
