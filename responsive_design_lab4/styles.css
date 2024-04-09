@@ -1,0 +1,135 @@
+/*
+
+*/
+
+/* Mobile */
+body {
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: #b78fd6;
+
+    background-image: url("img/henry.jpg");
+    background-size: 40px;
+    background-repeat: repeat;
+}
+#nav_logo {
+    width: 75%;
+}
+#content {
+    width: 85%;
+    margin: 20px auto;
+    background-color: #090309;
+    padding: 25px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    display: block;
+}
+nav li a {
+    padding: 15px;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 30pt;
+}
+
+/* Tablet */
+@media(min-width: 783px) {
+    body {
+        font-size: 18pt;
+    }
+    #nav_logo {
+        width: 50%;
+    }
+    nav li a {
+        padding: 5px;
+        font-size: 20pt;
+    }
+}
+
+/* Desktop */
+@media(min-width: 1024px) {
+    body {
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        color: #b78fd6;
+    
+        background-image: url("img/henry.jpg");
+        background-size: 40px;
+        background-repeat: repeat;
+    }
+    #big_header {
+        padding-top: 20px;
+    }
+    #nav_logo {
+        margin: auto;
+        float: left;
+        width: 15%;
+    }
+    hr {
+        color: #4F2E69;
+    }
+    nav {
+        margin: auto;
+        float: right;
+    }
+    nav ul {
+        text-align: right;
+        list-style-type: none;
+    }
+    nav li {
+        padding: 5px;
+    }
+    nav li a {
+        color: #8650B3;
+    }
+    nav li a:hover {
+        color: #4F2E69;
+    }
+    header {
+        margin-top: 115px;
+    }
+    #content {
+        width: 85%;
+        margin: 20px auto;
+        background-color: #090309;
+        padding: 15px;
+    }
+    .center_images {
+        display: block;
+        margin: auto;
+        width: 75%;
+    }
+    #lower, #lower_2, #lower_3, #dio_albums {
+        display: flex;
+    }
+    #honorable_mentions {
+        display: flex;
+    }
+    .col {
+        width: 33%;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #100914;
+    }
+    .col h3 {
+        text-align: center;
+    }
+    .col h5 {
+        text-align: center;
+    }
+}
