@@ -35,9 +35,9 @@ nav ul {
 }
 nav ul li {
     padding: 10px;
-    font-size: 40pt;
 }
 a {
+    font-size: 30pt;
     color: var(--pallete-secondary)
 }
 a:visited {
