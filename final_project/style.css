@@ -94,7 +94,7 @@ footer {
 /* PC */
 @media(min-width: 1024px) {
     body {
-        font-size: 16pt;
+        font-size: 20pt;
         color: var(--pallete-primary);
         background-color: var(--pallete-fourth);
     }
