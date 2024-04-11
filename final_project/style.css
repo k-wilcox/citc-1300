@@ -1,0 +1,184 @@
+.vt323-regular {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Possibly the most creataive solution I've ever come up with (with help of W3Schools)*/
+:root {
+    --pallete-primary: rgb(0, 167, 0);
+    --pallete-secondary: rgb(0, 121, 0);
+    --pallete-third: red;
+    --pallete-fourth: black;
+    --pallete-fith: rgb(5, 5, 5);
+}
+
+/* phone */
+body {
+    font-size: 30pt;
+    color: var(--pallete-primary);
+    background-color: var(--pallete-fourth);
+
+    background-image: url("img/home/bg.png");
+    background-size: 100px;
+    background-repeat: repeat;
+}
+hr {
+    color: var(--pallete-secondary);
+}
+nav {
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 40pt;
+}
+nav ul li {
+    padding: 10px;
+}
+a {
+    color: var(--pallete-secondary)
+}
+a:visited {
+    color: var(--pallete-third);
+}
+#content {
+    margin: 5px auto;
+}
+#nav_logo {
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+}
+#lower {
+    margin: 5px auto;    
+    width: 90%;
+    padding: 25px;
+    background-color: var(--pallete-fith);
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+}
+footer {
+    text-align: center;
+}
+.atari_carts {
+    width: 35%;
+}
+
+/* tablet */
+@media(min-width: 783px) {
+    body {
+        font-size: 20pt;
+        color: var(--pallete-primary);
+        background-color: var(--pallete-fourth);
+    }
+    hr {
+        color: var(--pallete-secondary);
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul li {
+        font-size: 22pt;
+        margin-right: 25px;
+    }
+    a {
+        color: var(--pallete-secondary)
+    }
+    a:visited {
+        color: var(--pallete-third);
+    }
+    #content {
+        margin: 5px auto;
+    }
+    #nav_logo {
+        width: 25%;
+        display: block;
+        margin: auto;
+    }
+    #lower {
+        margin: 5px auto;    
+        width: 90%;
+        padding: 25px;
+        background-color: var(--pallete-fith);
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+    }
+    footer {
+        text-align: center;
+    }
+}
+
+/* PC */
+@media(min-width: 1020px) {
+    body {
+        font-size: 16pt;
+        color: var(--pallete-primary);
+        background-color: var(--pallete-fourth);
+    }
+    hr {
+        color: var(--pallete-secondary);
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul li {
+        font-size: 22pt;
+        margin-right: 25px;
+    }
+    a {
+        color: var(--pallete-secondary)
+    }
+    a:visited {
+        color: var(--pallete-third);
+    }
+    #content {
+        margin: 5px auto;
+    }
+    #nav_logo {
+        width: 25%;
+        margin-left: 30px;
+        padding: 20px;
+    }
+    #lower {
+        margin: 5px auto;    
+        width: 90%;
+        padding: 25px;
+        background-color: var(--pallete-fith);
+    }
+    #home_atari {
+        width: 70%;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+    }
+    footer {
+        text-align: center;
+    }
+}
