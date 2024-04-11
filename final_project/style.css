@@ -71,7 +71,7 @@ footer {
 }
 
 /* tablet */
-@media(min-width: 783px) {
+@media(min-width: 720px) {
     body {
         font-size: 20pt;
         color: var(--pallete-primary);
@@ -126,7 +126,7 @@ footer {
 }
 
 /* PC */
-@media(min-width: 1020px) {
+@media(min-width: 1024px) {
     body {
         font-size: 16pt;
         color: var(--pallete-primary);
