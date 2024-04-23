@@ -10,7 +10,7 @@
     --pallete-secondary: rgb(0, 121, 0);
     --pallete-third: red;
     --pallete-fourth: black;
-    --pallete-fith: rgb(5, 5, 5);
+    --pallete-fith: rgb(5, 5, 5, .75);
 }
 
 /* phone */
